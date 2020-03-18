@@ -1,1 +1,6 @@
 #!/bin/bash
+echo "First parametr $1"
+echo "Second parametr $2"
+total=$[ $1 * $2 ]
+echo " Value = $total"
+

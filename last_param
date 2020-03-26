@@ -1,0 +1,4 @@
+#!/bin/bash
+last_param=$#
+echo "1 variant $last_param"
+echo "2 variant ${!#}"

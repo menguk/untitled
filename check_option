@@ -1,1 +1,14 @@
 #!/bin/bash
+while [ -n "$1" ]; do
+    case "$1" in
+        -a)
+            echo "Found the option -a" ;;
+        -b)
+            echo "Found the option -b" ;;
+        -c)
+            echo "Found the option -c" ;;
+        *)
+            echo "$1 is not option" ;;
+    esac
+    shift    
+done
